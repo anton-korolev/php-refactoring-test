@@ -1,0 +1,26 @@
+{
+    "name": "antonkorolev/refactoringtest",
+    "description": "Example of refactoring PHP code.",
+    "keywords": [
+        "refactoring",
+        "aggregate"
+    ],
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Anton Korolev",
+            "email": "antonkorolev.dev@gmail.com",
+            "role": "Author and maintainer"
+        }
+	],
+    "require": {
+        "php": ">=8.1.0"
+	},
+    "autoload": {
+        "psr-4": {
+            "NW\\WebService\\References\\Operations\\Notification\\": "src/Operations/Notification/",
+            "Other\\": "src/Other/"
+        }
+    }
+}
